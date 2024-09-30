@@ -60,7 +60,7 @@ body {
     padding: 0.5rem 1rem; /* Espaciado interno */
     transition: all 0.3s ease; /* Transición suave */
     display: inline-block; /* Para que el botón se comporte como un bloque */
-    max-width: 200px; /* Ancho máximo para el botón */
+    max-width: 250px; /* Ancho máximo para el botón */
     width: 100%; /* Ocupa el 100% del ancho disponible en pantallas pequeñas */
 }
 
@@ -73,6 +73,6 @@ body {
 @media (max-width: 768px) {
     .link-container a {
         font-size: 1.5rem; /* Ajusta el tamaño de fuente en pantallas más pequeñas */
-        padding: 0.4rem 0.8rem; /* Ajusta el padding en pantallas más pequeñas */
+        padding: 0.4rem 0.2rem; /* Ajusta el padding en pantallas más pequeñas */
     }
 }
